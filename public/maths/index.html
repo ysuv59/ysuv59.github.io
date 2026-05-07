@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Maths | Yamato Watanabe</title>
+<meta name="keywords" content="">
+<meta name="description" content="Maths - Yamato Watanabe">
+<meta name="author" content="">
+<link rel="canonical" href="https://example.org/maths/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a1a1b118b3e83435265dc39da18e54244bcc0e5481d1d034aadc0c899c51e15c.css" integrity="sha256-oaGxGLPoNDUmXcOdoY5UJEvMDlSB0dA0qtwMiZxR4Vw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://example.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://example.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://example.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://example.org/apple-touch-icon.png">
+<link rel="mask-icon" href="https://example.org/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://example.org/maths/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="https://example.org/maths/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://example.org/maths/">
+  <meta property="og:site_name" content="Yamato Watanabe">
+  <meta property="og:title" content="Maths">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Maths">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Maths",
+      "item": "https://example.org/maths/"
+    }
+  ]
+}
+</script>
+
+    
+      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+    
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://example.org/" accesskey="h" title="Yamato Watanabe (Alt + H)">Yamato Watanabe</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Maths
+  </h1>
+</header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">C*環のspectrum
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Gelfand spectrumの一般化であるspectrumとprimitive ideal spaceについて少しまとめた。続編もある予定。
+今回はtypstで記事を書いて、ここにそのままはっつけた。圧倒的に楽だった。
+PDFを表示
+</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-05-07 12:45:46 +0900 JST'>May 7, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to C*環のspectrum" href="https://example.org/maths/hull-kernel/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">C*環
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>私は作用素環論に主に興味があって、このページにもそれに関するものが多くなると予想されるので、定義とその気持ちを書いておく。（だいぶ私の思想が乗っているが、教科書に書いてあることは教科書を読めばいいのであえてそうする）
+作用素環論とは、その名の通り作用素のなす環を調べる学問である。作用素ということは、それらが作用する空間がある。空間への作用で作用素環を定義することはしばしばあるが、これはいわば外在的な定義で、（群論がそうであるように）一般論をやるには内在的な定義を与えたくなる。
+その実装の1つがC* 環である。C* 環とは次のデータからなる：
+・複素数体上の多元環 \( A \). \( A \) 上の完備ノルム \( \| \cdot \| \) ,共役線型写像 \( *:A\to A \) で以下を満たすもの: \[ * ^2 =1, \\ \| ab \| \le \| a \| \|b \| , \\ (ab)^* =b^* a^* , \\ \| a^* a \| = \| a \| ^*. \]見たらわかるように、複素線型構造や完備なノルム構造が入っている。初めに言ったコンセプトはまったくこういうことを要請しないが、作用素環論が扱おうとしている対象はしばしば無限次元的な対象で、これは代数的な操作だけで扱うには限界がある。一方で完備なノルム構造などがあると（双対空間の汎弱コンパクト性などから）超越的な議論で欲しい元の存在を言えたりする。扱おうとしている対象どいうのがしばしばこの構造を自然に持つというのもあって、これを課している。
+また*という関数が備わっている。（共役という。）上の目的ならばBanach環（上の公理から *に関するものを取り除いたもの）で十分と思われる。実際Banach環でもかなりの程度で並行して一般論を展開できる。しかし（Gelfand-Neimarkの定理など）望ましい結果を得るにはBanach環では一歩足りず、そのギャップを *構造が埋めてくれるという現実的側面もあるように思う。
+\( a^* = a \) を満たす元を自己共役という。ある元\( b \) で\( a=b^* b \) をかける元を正元といい、差が正元になるという条件によって自己共役元の集合には半順序が入る。公理を見れば\( a^* a\ge 0 で a^* a=0 \iff a=0 \) がすぐにわかる。複素数でこの性質は一度は使ったことがあるだろう。（実際、複素数環はC* 環の最もtrivialな例になっている ） * 構造とは、このように環に不等式による議論を与えるものでもある。
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-05-04 23:02:04 +0900 JST'>May 4, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to C*環" href="https://example.org/maths/calg/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://example.org/">Yamato Watanabe</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
