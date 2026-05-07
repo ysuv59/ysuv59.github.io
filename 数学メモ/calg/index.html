@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>C*環 | Yamato Watanabe</title>
 <meta name="keywords" content="">
-<meta name="description" content="私は作用素環論に主に興味があって、このページにもそれに関するものが多くなると予想されるので、定義とその気持ちを書いておく。（だいぶ私の思想が乗っているが、教科書に書いてあることは教科書を読めばいいのであえてそうする）">
+<meta name="description" content="私は作用素環論に主に興味があって、このページにもそれに関するものが多くなると予想されるので、定義とその気持ちを書いておく。（だいぶ私の思想が乗っているが、教科書に書いてあることは教科書を読めばいいのであえてそうする）
+作用素環論とは、その名の通り作用素のなす環を調べる学問である。作用素ということは、それらが作用する空間がある。空間への作用で作用素環を定義することはしばしばあるが、これはいわば外在的な定義で、（群論がそうであるように）一般論をやるには内在的な定義を与えたくなる。
+その実装の1つがC* 環である。C* 環とは次のデータからなる：
+・複素数体上の多元環 \( A \).  \( A \) 上の完備ノルム \( \| \cdot \| \) ,共役線型写像 \( *:A\to A \) で以下を満たすもの:
+
+\[  * ^2 =1, \\ \| ab \| \le \| a \| \|b \| , \\ (ab)^* =b^* a^* , \\ \| a^* a \| = \| a \| ^*. \]見たらわかるように、複素線型構造や完備なノルム構造が入っている。初めに言ったコンセプトはまったくこういうことを要請しないが、作用素環論が扱おうとしている対象はしばしば無限次元的な対象で、これは代数的な操作だけで扱うには限界がある。一方で完備なノルム構造などがあると（双対空間の汎弱コンパクト性などから）超越的な議論で欲しい元の存在を言えたりする。扱おうとしている対象どいうのがしばしばこの構造を自然に持つというのもあって、これを課している。
+また*という関数が備わっている。（共役という。）上の目的ならばBanach環（上の公理から *に関するものを取り除いたもの）で十分と思われる。実際Banach環でもかなりの程度で並行して一般論を展開できる。しかし（Gelfand-Neimarkの定理など）望ましい結果を得るにはBanach環では一歩足りず、そのギャップを *構造が埋めてくれるという現実的側面もあるように思う。
+\( a^*  = a \) を満たす元を自己共役という。ある元\( b \) で\( a=b^* b \) をかける元を正元といい、差が正元になるという条件によって自己共役元の集合には半順序が入る。公理を見れば\( a^* a\ge 0 で a^* a=0 \iff a=0 \) がすぐにわかる。複素数でこの性質は一度は使ったことがあるだろう。（実際、複素数環はC* 環の最もtrivialな例になっている ） * 構造とは、このように環に不等式による議論を与えるものでもある。">
 <meta name="author" content="">
-<link rel="canonical" href="https://ysuv59.github.io/maths/calg/">
+<link rel="canonical" href="http://localhost:1313/%E6%95%B0%E5%AD%A6%E3%83%A1%E3%83%A2/calg/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.a1a1b118b3e83435265dc39da18e54244bcc0e5481d1d034aadc0c899c51e15c.css" integrity="sha256-oaGxGLPoNDUmXcOdoY5UJEvMDlSB0dA0qtwMiZxR4Vw=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://ysuv59.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://ysuv59.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://ysuv59.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://ysuv59.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://ysuv59.github.io/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://ysuv59.github.io/maths/calg/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/%E6%95%B0%E5%AD%A6%E3%83%A1%E3%83%A2/calg/">
 <noscript>
     <style>
         #theme-toggle,
@@ -64,69 +71,6 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://ysuv59.github.io/maths/calg/">
-  <meta property="og:site_name" content="Yamato Watanabe">
-  <meta property="og:title" content="C*環">
-  <meta property="og:description" content="私は作用素環論に主に興味があって、このページにもそれに関するものが多くなると予想されるので、定義とその気持ちを書いておく。（だいぶ私の思想が乗っているが、教科書に書いてあることは教科書を読めばいいのであえてそうする）">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="maths">
-    <meta property="article:published_time" content="2026-05-04T23:02:04+09:00">
-    <meta property="article:modified_time" content="2026-05-04T23:02:04+09:00">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="C*環">
-  <meta name="twitter:description" content="私は作用素環論に主に興味があって、このページにもそれに関するものが多くなると予想されるので、定義とその気持ちを書いておく。（だいぶ私の思想が乗っているが、教科書に書いてあることは教科書を読めばいいのであえてそうする）">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "数学メモ",
-      "item": "https://ysuv59.github.io/maths/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "C*環",
-      "item": "https://ysuv59.github.io/maths/calg/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "C*環",
-  "name": "C*環",
-  "description": "私は作用素環論に主に興味があって、このページにもそれに関するものが多くなると予想されるので、定義とその気持ちを書いておく。（だいぶ私の思想が乗っているが、教科書に書いてあることは教科書を読めばいいのであえてそうする）\n",
-  "keywords": [
-    
-  ],
-  "articleBody": "私は作用素環論に主に興味があって、このページにもそれに関するものが多くなると予想されるので、定義とその気持ちを書いておく。（だいぶ私の思想が乗っているが、教科書に書いてあることは教科書を読めばいいのであえてそうする）\n作用素環論とは、その名の通り作用素のなす環を調べる学問である。作用素ということは、それらが作用する空間がある。空間への作用で作用素環を定義することはしばしばあるが、これはいわば外在的な定義で、（群論がそうであるように）一般論をやるには内在的な定義を与えたくなる。\nその実装の1つがC* 環である。C* 環とは次のデータからなる：\n・複素数体上の多元環 \\( A \\). \\( A \\) 上の完備ノルム \\( \\| \\cdot \\| \\) ,共役線型写像 \\( *:A\\to A \\) で以下を満たすもの: \\[ * ^2 =1, \\\\ \\| ab \\| \\le \\| a \\| \\|b \\| , \\\\ (ab)^* =b^* a^* , \\\\ \\| a^* a \\| = \\| a \\| ^*. \\]見たらわかるように、複素線型構造や完備なノルム構造が入っている。初めに言ったコンセプトはまったくこういうことを要請しないが、作用素環論が扱おうとしている対象はしばしば無限次元的な対象で、これは代数的な操作だけで扱うには限界がある。一方で完備なノルム構造などがあると（双対空間の汎弱コンパクト性などから）超越的な議論で欲しい元の存在を言えたりする。扱おうとしている対象というのがしばしばこの構造を自然に持つというのもあって、これを課している。\nまた*という関数が備わっている。（共役という。）上の目的ならばBanach環（上の公理から *に関するものを取り除いたもの）で十分と思われる。実際Banach環でもかなりの程度で並行して一般論を展開できる。しかし（Gelfand-Neimarkの定理など）望ましい結果を得るにはBanach環では一歩足りず、そのギャップを *構造が埋めてくれるという現実的側面もあるように思う。\n\\( a^* = a \\) を満たす元を自己共役という。ある元\\( b \\) で\\( a=b^* b \\) をかける元を正元といい、差が正元になるという条件によって自己共役元の集合には半順序が入る。公理を見れば\\( a^* a\\ge 0 で a^* a=0 \\iff a=0 \\) がすぐにわかる。複素数でこの性質は一度は使ったことがあるだろう。（実際、複素数環はC* 環の最もtrivialな例になっている ） * 構造とは、このように環に不等式による議論を与えるものでもある。\nC* 環に関する最も著名な定理は次に述べるGelfand-Neimarkの定理である。\\( X \\) をコンパクトハウスドルフ空間とする。このとき複素数値連続関数全体の集合 \\( C(X) \\) は終域の構造によって自然にC* 環となる。連続写像 \\( f:X\\to Y \\) は引き戻しによって C* 環の準同型 \\( f^* :C(Y)\\to C(X) \\) を定める。これらによってコンパクトハウスドルフ空間と連続写像のなす圏から可換 C* 環と * 準同型のなす圏への関手が定まる。Gelfand-Neimarkの定理とは、これが圏同値を与えることを主張する。\nよって、あるクラスの空間は連続関数環をとることによって完全に情報を保つということがわかる。このような事情があって、作用素環論では非可換環そのものも\"非可換空間\"上の関数環と考えることもある。（そう思ってすぐに嬉しいことがあるわけではないが、証明が関数環の場合の非可換化と思うとリーズナブルに見えるということはよくある。）これを推し進めたのが非可換幾何学となっている。\n作用素環論に現れる諸概念の定義は、（例えば加群など）代数的に知られたものに解析的構造を載せました、みたいなものが多い。命題も代数的な命題がパラレルに考えられることが多いと思う。一方でその証明の中身の本質的な部分は不等式評価、Zornの補題、コンパクト性、Hahn-Banachの分離定理などによることが多く、ほとんど関数解析と言った方が良い。これが普通の環論とは違うところで、こういう議論が楽しい人にはおすすめ。\n飽きたのでここで終わる。ちなみに、この記事はmarkdown形式のファイルにtexを直接書けるように設定し、その機能を利用したが、普通に使いにくいので以降はpdfファイルをはっつけるだけになるかも。\n",
-  "wordCount" : "1672",
-  "inLanguage": "en",
-  "datePublished": "2026-05-04T23:02:04+09:00",
-  "dateModified": "2026-05-04T23:02:04+09:00",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://ysuv59.github.io/maths/calg/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Yamato Watanabe",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://ysuv59.github.io/favicon.ico"
-    }
-  }
-}
 </script>
 
     
@@ -149,7 +93,7 @@
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
-            <a href="https://ysuv59.github.io/" accesskey="h" title="Yamato Watanabe (Alt + H)">Yamato Watanabe</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Yamato Watanabe (Alt + H)">Yamato Watanabe</a>
             <div class="logo-switches">
                 <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
@@ -175,17 +119,7 @@
         </div>
         <ul id="menu" class="menu">
             <li>
-                <a href="https://ysuv59.github.io/posts/" title="雑記">
-                    <span>雑記</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://ysuv59.github.io/maths/" title="数学メモ">
-                    <span>数学メモ</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://ysuv59.github.io/about/" title="About">
+                <a href="http://localhost:1313/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
@@ -211,11 +145,11 @@
 <p>その実装の1つがC* 環である。C* 環とは次のデータからなる：</p>
 <p>・複素数体上の多元環 \( A \).  \( A \) 上の完備ノルム \( \| \cdot \| \) ,共役線型写像 \( *:A\to A \) で以下を満たすもの:
 </p>
-\[  * ^2 =1, \\ \| ab \| \le \| a \| \|b \| , \\ (ab)^* =b^* a^* , \\ \| a^* a \| = \| a \| ^*. \]<p>見たらわかるように、複素線型構造や完備なノルム構造が入っている。初めに言ったコンセプトはまったくこういうことを要請しないが、作用素環論が扱おうとしている対象はしばしば無限次元的な対象で、これは代数的な操作だけで扱うには限界がある。一方で完備なノルム構造などがあると（双対空間の汎弱コンパクト性などから）超越的な議論で欲しい元の存在を言えたりする。扱おうとしている対象というのがしばしばこの構造を自然に持つというのもあって、これを課している。</p>
+\[  * ^2 =1, \\ \| ab \| \le \| a \| \|b \| , \\ (ab)^* =b^* a^* , \\ \| a^* a \| = \| a \| ^*. \]<p>見たらわかるように、複素線型構造や完備なノルム構造が入っている。初めに言ったコンセプトはまったくこういうことを要請しないが、作用素環論が扱おうとしている対象はしばしば無限次元的な対象で、これは代数的な操作だけで扱うには限界がある。一方で完備なノルム構造などがあると（双対空間の汎弱コンパクト性などから）超越的な議論で欲しい元の存在を言えたりする。扱おうとしている対象どいうのがしばしばこの構造を自然に持つというのもあって、これを課している。</p>
 <p>また*という関数が備わっている。（共役という。）上の目的ならばBanach環（上の公理から *に関するものを取り除いたもの）で十分と思われる。実際Banach環でもかなりの程度で並行して一般論を展開できる。しかし（Gelfand-Neimarkの定理など）望ましい結果を得るにはBanach環では一歩足りず、そのギャップを *構造が埋めてくれるという現実的側面もあるように思う。</p>
 <p>\( a^*  = a \) を満たす元を自己共役という。ある元\( b \) で\( a=b^* b \) をかける元を正元といい、差が正元になるという条件によって自己共役元の集合には半順序が入る。公理を見れば\( a^* a\ge 0 で a^* a=0 \iff a=0 \) がすぐにわかる。複素数でこの性質は一度は使ったことがあるだろう。（実際、複素数環はC* 環の最もtrivialな例になっている ） * 構造とは、このように環に不等式による議論を与えるものでもある。</p>
 <p>C* 環に関する最も著名な定理は次に述べるGelfand-Neimarkの定理である。\( X \) をコンパクトハウスドルフ空間とする。このとき複素数値連続関数全体の集合 \( C(X) \) は終域の構造によって自然にC* 環となる。連続写像 \( f:X\to Y \) は引き戻しによって C* 環の準同型 \( f^* :C(Y)\to C(X) \) を定める。これらによってコンパクトハウスドルフ空間と連続写像のなす圏から<strong>可換</strong> C* 環と * 準同型のなす圏への関手が定まる。Gelfand-Neimarkの定理とは、これが圏同値を与えることを主張する。</p>
-<p>よって、あるクラスの空間は連続関数環をとることによって完全に情報を保つということがわかる。このような事情があって、作用素環論では非可換環そのものも&quot;非可換空間&quot;上の関数環と考えることもある。（そう思ってすぐに嬉しいことがあるわけではないが、証明が関数環の場合の非可換化と思うとリーズナブルに見えるということはよくある。）これを推し進めたのが非可換幾何学となっている。</p>
+<p>よって、あるクラスの空間は連続関数環をとることによって完全に情報を保つということがわかる。このような事情があって、作用素環論では非可換環そのものも&quot;非可換空間&quot;上の関数環と考えることもある。（そう思ってすぐに嬉しいことがあるわけではないが、証明が関数環の場合の非可換化と思うとリーズナブルに見えるということはよくある。）これを推し進めたのが非可換幾何学であるが、それはまた今度。</p>
 <p>作用素環論に現れる諸概念の定義は、（例えば加群など）代数的に知られたものに解析的構造を載せました、みたいなものが多い。命題も代数的な命題がパラレルに考えられることが多いと思う。一方でその証明の中身の本質的な部分は不等式評価、Zornの補題、コンパクト性、Hahn-Banachの分離定理などによることが多く、ほとんど関数解析と言った方が良い。これが普通の環論とは違うところで、こういう議論が楽しい人にはおすすめ。</p>
 <p>飽きたのでここで終わる。ちなみに、この記事はmarkdown形式のファイルにtexを直接書けるように設定し、その機能を利用したが、普通に使いにくいので以降はpdfファイルをはっつけるだけになるかも。</p>
 
@@ -230,7 +164,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="https://ysuv59.github.io/">Yamato Watanabe</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">Yamato Watanabe</a></span> · 
 
     
     
