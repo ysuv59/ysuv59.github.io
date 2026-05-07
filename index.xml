@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yamato Watanabe</title>
-    <link>https://example.org/</link>
+    <link>https://ysuv59.github.io/</link>
     <description>Recent content on Yamato Watanabe</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 May 2026 12:45:46 +0900</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ysuv59.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C*環のspectrum</title>
-      <link>https://example.org/maths/hull-kernel/</link>
+      <link>https://ysuv59.github.io/maths/hull-kernel/</link>
       <pubDate>Thu, 07 May 2026 12:45:46 +0900</pubDate>
-      <guid>https://example.org/maths/hull-kernel/</guid>
+      <guid>https://ysuv59.github.io/maths/hull-kernel/</guid>
       <description>&lt;p&gt;Gelfand spectrumの一般化であるspectrumとprimitive ideal spaceについて少しまとめた。続編もある予定。&lt;/p&gt;
 &lt;p&gt;今回はtypstで記事を書いて、ここにそのままはっつけた。圧倒的に楽だった。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://example.org/hull-kernel.pdf&#34;&gt;PDFを表示&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://ysuv59.github.io/hull-kernel.pdf&#34;&gt;PDFを表示&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>C*環</title>
-      <link>https://example.org/maths/calg/</link>
+      <link>https://ysuv59.github.io/maths/calg/</link>
       <pubDate>Mon, 04 May 2026 23:02:04 +0900</pubDate>
-      <guid>https://example.org/maths/calg/</guid>
+      <guid>https://ysuv59.github.io/maths/calg/</guid>
       <description>&lt;p&gt;私は作用素環論に主に興味があって、このページにもそれに関するものが多くなると予想されるので、定義とその気持ちを書いておく。（だいぶ私の思想が乗っているが、教科書に書いてあることは教科書を読めばいいのであえてそうする）&lt;/p&gt;
 &lt;p&gt;作用素環論とは、その名の通り作用素のなす環を調べる学問である。作用素ということは、それらが作用する空間がある。空間への作用で作用素環を定義することはしばしばあるが、これはいわば外在的な定義で、（群論がそうであるように）一般論をやるには内在的な定義を与えたくなる。&lt;/p&gt;
 &lt;p&gt;その実装の1つがC* 環である。C* 環とは次のデータからなる：&lt;/p&gt;
@@ -33,9 +33,9 @@
     </item>
     <item>
       <title>東大数学科に流れ着くまで</title>
-      <link>https://example.org/posts/my-first-post/</link>
+      <link>https://ysuv59.github.io/posts/my-first-post/</link>
       <pubDate>Mon, 04 May 2026 22:19:21 +0900</pubDate>
-      <guid>https://example.org/posts/my-first-post/</guid>
+      <guid>https://ysuv59.github.io/posts/my-first-post/</guid>
       <description>&lt;p&gt;とりあえずなんか記事がないと寂しいので、2026年5月現在までの生い立ちを書ける範囲で書いてみる。&lt;/p&gt;
 &lt;p&gt;といっても中学校まではもうあまり記憶がない。地元の中学校で、サッカー部に所属していてこれに必死だったと思う。数学は好きだったが、得意だからという理由でしかない気がする。&lt;/p&gt;
 &lt;p&gt;公立なのでもちろん高校受験をした。佐鳴予備校という塾に通わせてもらっていた。ここの授業は結構面白かったが、すごく競争心を煽る雰囲気があった。受験期は地域の図書館でよく勉強していたけど、午後5時に閉まった。今考えても早すぎる。&lt;/p&gt;
@@ -48,6 +48,16 @@
 &lt;p&gt;B2では熱心に数学をして、問題を解く以上の、高い視座から概念を理解する喜びみたいなものを覚えた。入学時点では物理もいいと思っていたが、自分は自然科学より抽象論が好きだと進振りの頃には気づいた。こういうことがあるので進振りは私は機能していると思う。でも改善の余地はある。&lt;/p&gt;
 &lt;p&gt;そういうわけで東大数学科に来てしまった。これはすごいことで、大層なことを言うと、私がサッカーで日本代表と同じコートで練習しているような状況は夢にも見ないので、そのようなことがある分野でさせてもらえていると思うと高揚する。&lt;/p&gt;
 &lt;p&gt;そろそろ現実に時系列が迫ってきたので終わり。また日が空いたら更新したい。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://ysuv59.github.io/about/</link>
+      <pubDate>Mon, 04 May 2026 21:52:59 +0900</pubDate>
+      <guid>https://ysuv59.github.io/about/</guid>
+      <description>&lt;p&gt;2004年6月 愛知県に生まれる。&lt;/p&gt;
+&lt;p&gt;2020年4月 愛知県立旭丘高校に進学。&lt;/p&gt;
+&lt;p&gt;2023年4月 東京大学理科一類に進学。&lt;/p&gt;
+&lt;p&gt;2026年4月 東京大学理学部数学科に進学。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
