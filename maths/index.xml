@@ -6,8 +6,15 @@
     <description>Recent content in 数学メモ on Yamato Watanabe</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 May 2026 12:45:46 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 22:20:40 +0900</lastBuildDate>
     <atom:link href="https://ysuv59.github.io/maths/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Banach-Tarskiのパラドックス</title>
+      <link>https://ysuv59.github.io/maths/btpar/</link>
+      <pubDate>Fri, 22 May 2026 22:20:40 +0900</pubDate>
+      <guid>https://ysuv59.github.io/maths/btpar/</guid>
+      <description>&lt;p&gt;第99回五月祭で販売した理学部数学科会誌『episode』に自分が寄稿した記事「Banach&amp;ndash;Tarskiのパラドックスと従順性」を公開する。群論を知っていれば前半は読めると思う。後半も関数解析の基礎的なことに予備知識を留めたつもりである。C* 環との関わりも少し書いた。無限群と作用素環の関わりは枚挙にいとまがない。こちらもまた記事にすると思う。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dauns-Hofmannの定理</title>
       <link>https://ysuv59.github.io/maths/dauns-hofmann/</link>
