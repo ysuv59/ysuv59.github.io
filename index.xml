@@ -6,8 +6,17 @@
     <description>Recent content on Yamato Watanabe</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 May 2026 22:20:40 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 21:29:14 +0900</lastBuildDate>
     <atom:link href="https://ysuv59.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>06/2026</title>
+      <link>https://ysuv59.github.io/diary/062026/</link>
+      <pubDate>Sat, 30 May 2026 21:29:14 +0900</pubDate>
+      <guid>https://ysuv59.github.io/diary/062026/</guid>
+      <description>&lt;p&gt;5/30&lt;/p&gt;
+&lt;p&gt;募集要項を読んだ。数学系と数理解析系の併願方法が見つけられなくて困惑した。&lt;/p&gt;
+&lt;p&gt;K理論を勉強した。作用素が「関手Kに対する自然変換」と定義されたのでアーベル群の準同型を定めると思い、それがとても成り立ちそうにないので困惑したが、よく見ると（集合としての）と書いてあった。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Banach-Tarskiのパラドックス</title>
       <link>https://ysuv59.github.io/maths/btpar/</link>
