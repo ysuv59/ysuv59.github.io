@@ -6,16 +6,23 @@
     <description>Recent content on Yamato Watanabe</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 01 Jul 2026 20:34:06 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 22:10:42 +0900</lastBuildDate>
     <atom:link href="https://ysuv59.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pimsner-Voiculescu完全列</title>
+      <link>https://ysuv59.github.io/maths/pvseq/</link>
+      <pubDate>Mon, 06 Jul 2026 22:10:42 +0900</pubDate>
+      <guid>https://ysuv59.github.io/maths/pvseq/</guid>
+      <description>&lt;p&gt;整数群による接合積はK群に6項完全列を誘導し、作用の誘導準同型がわかればK群が計算できる。(例えば非可換トーラスなど。)その証明をTakai duality, Thom同型とK群の6項完全列から導く方法を整理した。肝は非可換mapping torusに付随する完全列の誘導する6項完全列を書き換えるところだけである。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>07/2026</title>
       <link>https://ysuv59.github.io/diary/072026/</link>
       <pubDate>Wed, 01 Jul 2026 20:34:06 +0900</pubDate>
       <guid>https://ysuv59.github.io/diary/072026/</guid>
-      <description>&lt;p&gt;7/5&lt;/p&gt;
-&lt;p&gt;モロッコ対カナダの試合を前半まで見て膠着していたので寝たけど、その後3点入ったらしい。&lt;/p&gt;
-&lt;p&gt;今日で院試前のゼミが全て終わった。結局距離幾何は使う予定がなく、ジェネトポや測度論で遊んだだけだったかもしれない。&lt;/p&gt;</description>
+      <description>&lt;p&gt;7/6&lt;/p&gt;
+&lt;p&gt;眠い目を擦りながらノルウェー対ブラジルを見ていたら、ハーランドがとんでもないゴールを決めて目が覚めた。&lt;/p&gt;
+&lt;p&gt;講究発表をした。離散群にKazhdanの性質(T)とKirchbergのfactorization propertyを課すと(いずれも解析的条件である)、residually finiteという純代数的な性質を導くことができることを証明した。これはすごく非自明で面白かった。Kirchbergのfactorization propertyは一見しても定義のモチベーションはほとんどわからないが、KirchbergがConnesの埋め込み予想に取り組む仮定で考えられたらしい。Connesの埋め込み問題には正直そこまでの興味はないが、関連する内容を勉強しているので概要くらい知ってもいいかもしれない。&lt;/p&gt;</description>
     </item>
     <item>
       <title>06/2026</title>

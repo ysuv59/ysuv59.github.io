@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head>
-	<meta name="generator" content="Hugo 0.160.1"><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Yamato Watanabe</title>
-
-<meta name="description" content="">
+<title>Pimsner-Voiculescu完全列 | Yamato Watanabe</title>
+<meta name="keywords" content="">
+<meta name="description" content="整数群による接合積はK群に6項完全列を誘導し、作用の誘導準同型がわかればK群が計算できる。(例えば非可換トーラスなど。)その証明をTakai duality, Thom同型とK群の6項完全列から導く方法を整理した。肝は非可換mapping torusに付随する完全列の誘導する6項完全列を書き換えるところだけである。">
 <meta name="author" content="">
-<link rel="canonical" href="https://ysuv59.github.io/">
+<link rel="canonical" href="https://ysuv59.github.io/maths/pvseq/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.a1a1b118b3e83435265dc39da18e54244bcc0e5481d1d034aadc0c899c51e15c.css" integrity="sha256-oaGxGLPoNDUmXcOdoY5UJEvMDlSB0dA0qtwMiZxR4Vw=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://ysuv59.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://ysuv59.github.io/favicon-16x16.png">
@@ -19,8 +18,7 @@
 <link rel="mask-icon" href="https://ysuv59.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://ysuv59.github.io/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="https://ysuv59.github.io/">
+<link rel="alternate" hreflang="en" href="https://ysuv59.github.io/maths/pvseq/">
 <noscript>
     <style>
         #theme-toggle,
@@ -66,30 +64,68 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://ysuv59.github.io/">
+</script><meta property="og:url" content="https://ysuv59.github.io/maths/pvseq/">
   <meta property="og:site_name" content="Yamato Watanabe">
-  <meta property="og:title" content="Yamato Watanabe">
-  <meta property="og:description" content="こんにちは。渡邉大和と申します。作用素環論と幾何学に興味を持っています。
-About 雑記 数学メモ 日記">
+  <meta property="og:title" content="Pimsner-Voiculescu完全列">
+  <meta property="og:description" content="整数群による接合積はK群に6項完全列を誘導し、作用の誘導準同型がわかればK群が計算できる。(例えば非可換トーラスなど。)その証明をTakai duality, Thom同型とK群の6項完全列から導く方法を整理した。肝は非可換mapping torusに付随する完全列の誘導する6項完全列を書き換えるところだけである。">
   <meta property="og:locale" content="ja">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="maths">
+    <meta property="article:published_time" content="2026-07-06T22:10:42+09:00">
+    <meta property="article:modified_time" content="2026-07-06T22:10:42+09:00">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Yamato Watanabe">
-  <meta name="twitter:description" content="こんにちは。渡邉大和と申します。作用素環論と幾何学に興味を持っています。
-About 雑記 数学メモ 日記">
+  <meta name="twitter:title" content="Pimsner-Voiculescu完全列">
+  <meta name="twitter:description" content="整数群による接合積はK群に6項完全列を誘導し、作用の誘導準同型がわかればK群が計算できる。(例えば非可換トーラスなど。)その証明をTakai duality, Thom同型とK群の6項完全列から導く方法を整理した。肝は非可換mapping torusに付随する完全列の誘導する6項完全列を書き換えるところだけである。">
+
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Yamato Watanabe",
-  "url": "https://ysuv59.github.io/",
-  "description": "",
-  "logo": "https://ysuv59.github.io/favicon.ico",
-  "sameAs": [
-      
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "数学メモ",
+      "item": "https://ysuv59.github.io/maths/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Pimsner-Voiculescu完全列",
+      "item": "https://ysuv59.github.io/maths/pvseq/"
+    }
   ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Pimsner-Voiculescu完全列",
+  "name": "Pimsner-Voiculescu完全列",
+  "description": "整数群による接合積はK群に6項完全列を誘導し、作用の誘導準同型がわかればK群が計算できる。(例えば非可換トーラスなど。)その証明をTakai duality, Thom同型とK群の6項完全列から導く方法を整理した。肝は非可換mapping torusに付随する完全列の誘導する6項完全列を書き換えるところだけである。\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "整数群による接合積はK群に6項完全列を誘導し、作用の誘導準同型がわかればK群が計算できる。(例えば非可換トーラスなど。)その証明をTakai duality, Thom同型とK群の6項完全列から導く方法を整理した。肝は非可換mapping torusに付随する完全列の誘導する6項完全列を書き換えるところだけである。\nPDFを表示\n接合積についても、局所コンパクト群については馴染みが薄かったので定義を書いた。離散でないと部分群に対して包含が生えず少し事情が複雑になる。「部分群の左正則共変表現の誘導表現は元の左正則共変表現に一致する」という主張が多分成り立つのだが、証明を書き上げることができなかった。ここでは命題4.2で表現を書き換えるところの構成で暗にそれを使っている。\n原論文 ではToeplitz環によるextentionを用いる方法をとっているらしい。こちらの方が構成が直感的らしいので、こっちを読んだ方が早いかも。\n",
+  "wordCount" : "400",
+  "inLanguage": "en",
+  "datePublished": "2026-07-06T22:10:42+09:00",
+  "dateModified": "2026-07-06T22:10:42+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ysuv59.github.io/maths/pvseq/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Yamato Watanabe",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ysuv59.github.io/favicon.ico"
+    }
+  }
 }
 </script>
 
@@ -109,7 +145,7 @@ About 雑記 数学メモ 日記">
 </script>
     
 </head>
-<body class="list" id="top">
+<body id="top">
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
@@ -156,17 +192,33 @@ About 雑記 数学メモ 日記">
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<div class="post-content md-content"><p>こんにちは。渡邉大和と申します。作用素環論と幾何学に興味を持っています。</p>
-<ul>
-<li><a href="/about/">About</a></li>
-<li><a href="/posts/">雑記</a></li>
-<li><a href="/maths/">数学メモ</a></li>
-<li><a href="/diary/">日記</a></li>
-</ul>
+<main class="main">
 
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Pimsner-Voiculescu完全列
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-07-06 22:10:42 +0900 JST'>July 6, 2026</span>
 
 </div>
+  </header> 
+  <div class="post-content md-content"><p>整数群による接合積はK群に6項完全列を誘導し、作用の誘導準同型がわかればK群が計算できる。(例えば非可換トーラスなど。)その証明をTakai duality, Thom同型とK群の6項完全列から導く方法を整理した。肝は非可換mapping torusに付随する完全列の誘導する6項完全列を書き換えるところだけである。</p>
+<p><a href="/pvseq.pdf">PDFを表示</a></p>
+<p>接合積についても、局所コンパクト群については馴染みが薄かったので定義を書いた。離散でないと部分群に対して包含が生えず少し事情が複雑になる。「部分群の左正則共変表現の誘導表現は元の左正則共変表現に一致する」という主張が多分成り立つのだが、証明を書き上げることができなかった。ここでは命題4.2で表現を書き換えるところの構成で暗にそれを使っている。</p>
+<p><a href="https://www.theta.ro/jot/archive/1980-004-001/1980-004-001-005.pdf">原論文</a> ではToeplitz環によるextentionを用いる方法をとっているらしい。こちらの方が構成が直感的らしいので、こっちを読んだ方が早いかも。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
     </main>
     
 <footer class="footer">

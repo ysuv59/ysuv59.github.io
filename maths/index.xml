@@ -6,8 +6,15 @@
     <description>Recent content in 数学メモ on Yamato Watanabe</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 22 May 2026 22:20:40 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 22:10:42 +0900</lastBuildDate>
     <atom:link href="https://ysuv59.github.io/maths/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pimsner-Voiculescu完全列</title>
+      <link>https://ysuv59.github.io/maths/pvseq/</link>
+      <pubDate>Mon, 06 Jul 2026 22:10:42 +0900</pubDate>
+      <guid>https://ysuv59.github.io/maths/pvseq/</guid>
+      <description>&lt;p&gt;整数群による接合積はK群に6項完全列を誘導し、作用の誘導準同型がわかればK群が計算できる。(例えば非可換トーラスなど。)その証明をTakai duality, Thom同型とK群の6項完全列から導く方法を整理した。肝は非可換mapping torusに付随する完全列の誘導する6項完全列を書き換えるところだけである。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Banach-Tarskiのパラドックス</title>
       <link>https://ysuv59.github.io/maths/btpar/</link>
