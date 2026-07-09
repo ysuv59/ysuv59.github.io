@@ -20,9 +20,9 @@
       <link>https://ysuv59.github.io/diary/072026/</link>
       <pubDate>Wed, 01 Jul 2026 20:34:06 +0900</pubDate>
       <guid>https://ysuv59.github.io/diary/072026/</guid>
-      <description>&lt;p&gt;7/8&lt;/p&gt;
-&lt;p&gt;群の分類空間の構成がわかった。&lt;/p&gt;
-&lt;p&gt;「Lp空間の点列が弱収束、a.e.収束をしているとき、そのそれぞれの収束先は等しいか？」という問題を人と考え、正しいとわかった。私はめんどくさいから書かないけど考えた人が責任持って書くと思います、多分。&lt;/p&gt;</description>
+      <description>&lt;p&gt;7/9&lt;/p&gt;
+&lt;p&gt;解けるべき問題が解けていなくて悲しかった。&lt;/p&gt;
+&lt;p&gt;\( L^1 \)の双対が\( L^{\infty} \) であることを示すにはRadon-Nikodymの定理を要すると思っていたが、 \( 1&lt; p &lt; \infty  \) で\( L^p \) の双対が\( L^{p^*} \) となることは何の仮定もなく成り立つらしい。できれば怖いことはしないほうがいいけど。&lt;/p&gt;</description>
     </item>
     <item>
       <title>06/2026</title>
