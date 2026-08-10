@@ -13,10 +13,9 @@
       <link>https://ysuv59.github.io/diary/082026/</link>
       <pubDate>Sat, 01 Aug 2026 23:17:42 +0900</pubDate>
       <guid>https://ysuv59.github.io/diary/082026/</guid>
-      <description>&lt;p&gt;8/9&lt;/p&gt;
-&lt;p&gt;著しく集中力がなくて涙。。。。&lt;/p&gt;
-&lt;p&gt;8/8&lt;/p&gt;
-&lt;p&gt;日本に着いた。移動するだけで疲れ切ってしまった。ヘアオイルが保安検査で没収されてしまった。高かったのに&amp;hellip;&lt;/p&gt;</description>
+      <description>&lt;p&gt;8/10&lt;/p&gt;
+&lt;p&gt;関数解析、主にスペクトル分解について復習をした。スペクトル分解とはつまり作用素の対角化の理論である。&lt;/p&gt;
+&lt;p&gt;・まず、Banach空間上のコンパクト作用素については内積構造を仮定しなくてもかなり構造を決定することができる。例えば、0以外のスペクトルは全て孤立点で、さらに固有値であり、固有空間の次元は有限である。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pimsner-Voiculescu完全列</title>
