@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>4Sセメスター振り返り | Yamato Watanabe</title>
+<meta name="keywords" content="">
+<meta name="description" content="4Sにやったことを振り返る。
+・講究XA 大学での必修。はじめて指導教員というものがついたので楽しかった。Brown-Ozawa &ldquo;C*-algebras and Finite-Dimentional Approximation&rdquo; を読んだ。非可換幾何学の興味とは結構離れていたけど、戸松の最後の章が面白かったことや、4S開始当時の感覚だと作用素環の綺麗な部分ばかり触っていて、本質的に難しいことと向き合ったことがないのはよくないと思ったのがあってこれを選んだ。4月までに3章までを読み、セミナーではある程度省きながら7章まで読んだ。じっさいに習得に時間がかかりそうな繊細な概念をいくつか身につけられた感覚はあるので、とてもよかった。Part1があと2章で終わるので、そこまでは読む予定。">
+<meta name="author" content="">
+<link rel="canonical" href="https://ysuv59.github.io/posts/4s/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a1a1b118b3e83435265dc39da18e54244bcc0e5481d1d034aadc0c899c51e15c.css" integrity="sha256-oaGxGLPoNDUmXcOdoY5UJEvMDlSB0dA0qtwMiZxR4Vw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ysuv59.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ysuv59.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ysuv59.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://ysuv59.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ysuv59.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://ysuv59.github.io/posts/4s/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://ysuv59.github.io/posts/4s/">
+  <meta property="og:site_name" content="Yamato Watanabe">
+  <meta property="og:title" content="4Sセメスター振り返り">
+  <meta property="og:description" content="4Sにやったことを振り返る。
+・講究XA 大学での必修。はじめて指導教員というものがついたので楽しかった。Brown-Ozawa “C*-algebras and Finite-Dimentional Approximation” を読んだ。非可換幾何学の興味とは結構離れていたけど、戸松の最後の章が面白かったことや、4S開始当時の感覚だと作用素環の綺麗な部分ばかり触っていて、本質的に難しいことと向き合ったことがないのはよくないと思ったのがあってこれを選んだ。4月までに3章までを読み、セミナーではある程度省きながら7章まで読んだ。じっさいに習得に時間がかかりそうな繊細な概念をいくつか身につけられた感覚はあるので、とてもよかった。Part1があと2章で終わるので、そこまでは読む予定。">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-08-28T10:10:36+09:00">
+    <meta property="article:modified_time" content="2026-08-28T10:10:36+09:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="4Sセメスター振り返り">
+  <meta name="twitter:description" content="4Sにやったことを振り返る。
+・講究XA 大学での必修。はじめて指導教員というものがついたので楽しかった。Brown-Ozawa “C*-algebras and Finite-Dimentional Approximation” を読んだ。非可換幾何学の興味とは結構離れていたけど、戸松の最後の章が面白かったことや、4S開始当時の感覚だと作用素環の綺麗な部分ばかり触っていて、本質的に難しいことと向き合ったことがないのはよくないと思ったのがあってこれを選んだ。4月までに3章までを読み、セミナーではある程度省きながら7章まで読んだ。じっさいに習得に時間がかかりそうな繊細な概念をいくつか身につけられた感覚はあるので、とてもよかった。Part1があと2章で終わるので、そこまでは読む予定。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "雑記",
+      "item": "https://ysuv59.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "4Sセメスター振り返り",
+      "item": "https://ysuv59.github.io/posts/4s/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "4Sセメスター振り返り",
+  "name": "4Sセメスター振り返り",
+  "description": "4Sにやったことを振り返る。\n・講究XA 大学での必修。はじめて指導教員というものがついたので楽しかった。Brown-Ozawa \u0026ldquo;C*-algebras and Finite-Dimentional Approximation\u0026rdquo; を読んだ。非可換幾何学の興味とは結構離れていたけど、戸松の最後の章が面白かったことや、4S開始当時の感覚だと作用素環の綺麗な部分ばかり触っていて、本質的に難しいことと向き合ったことがないのはよくないと思ったのがあってこれを選んだ。4月までに3章までを読み、セミナーではある程度省きながら7章まで読んだ。じっさいに習得に時間がかかりそうな繊細な概念をいくつか身につけられた感覚はあるので、とてもよかった。Part1があと2章で終わるので、そこまでは読む予定。\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "4Sにやったことを振り返る。\n・講究XA 大学での必修。はじめて指導教員というものがついたので楽しかった。Brown-Ozawa “C*-algebras and Finite-Dimentional Approximation” を読んだ。非可換幾何学の興味とは結構離れていたけど、戸松の最後の章が面白かったことや、4S開始当時の感覚だと作用素環の綺麗な部分ばかり触っていて、本質的に難しいことと向き合ったことがないのはよくないと思ったのがあってこれを選んだ。4月までに3章までを読み、セミナーではある程度省きながら7章まで読んだ。じっさいに習得に時間がかかりそうな繊細な概念をいくつか身につけられた感覚はあるので、とてもよかった。Part1があと2章で終わるので、そこまでは読む予定。\n・K理論 友人と自主ゼミをした。Atiyah “K-theory” の邦訳を読んだ。行間だらけで大変苦しかったが、かなり勉強になった。位相的K理論の基本的なことを勉強できたし、R^nが体になるnや球面のベクトル場問題などおもしろ幾何学トピックに触れるようになったのも楽しかった。一方で特性類やコホモロジー環のことを全然知らないまま読んだのは明確に順番を間違えた感はあった。（作用素環やる分にはそんな全部やってられないというのが正直なところだが…）あとなんかまだBott周期性の証明回ってないらしい。鬱。\nChern指標についてはもう少しちゃんと勉強したい。\n・複素幾何 ゼミ合宿の事後ゼミとしてJohn M. Lee “Introduction to Complex Manifolds” の9章途中まで読んだ。合宿までは正則バンドルがampleとかどうこうという話と、あとはほとんど層論・コホモロジー論だったが、7-9章はHodge理論やケーラー多様体が導入される解析パートだった。9章後半以降はこれらを全部使って複素多様体に対して大定理(e.g. Riemann-Roch, Chowの定理, 小平埋込)を勉強できる予定なので、楽しみ。\n・指数定理 Lawson-Michelson “Spin Geometry”, Berline-Getzler-Vergne “Heat Kernels and Dirac Operators”, John Roe “Elliptic operators, topology and asymptotic methods” を参照したりゼミに参加したりして手当たり次第に勉強した。しかし幾何の素養がないせいでとにかく時間がかかった。（今野微分幾何を読むハメにもなった。）結局\"Heat kernels and Dirac Operators\"の部分がなんなのかはわかったが、肝心の指数定理には辿り着いていない。これも友人の助けがなかったらとても無理だっただろう。\n一方でanalytic K-homologyの定義に納得できるようにはなったし、少しずつ前進はしている。\n・距離幾何 D.Burago-Y.Burago-Ivanov “A Course in Metric Geometry” を読むゼミに参加した。正直距離幾何がなんなのか知らないまま参加したが、中身はジェネトポで面白かった。でもこれから自分が使うことはあまりなさそうだと感じた。\n・院試 対策として4月から週1で東大の過去問を1年分解いてきて互いに発表するというのをやった。たまに予定があると解いてこれなかったが一応全年度分幾何と解析に取り組みはした。幾何は1/3くらいはいつも解けなくて厳しかった。あとは線形代数や微積は4月ごろに復習をした。京大も10年分くらい解いた。\n基本的なことを引き出すのが少し早くなったこと、具体例にたくさん触れられたことは良かった。ただあまりに人工的に難しい問題に当たると少し萎えた。\n東大と京大を受験した。（現状、京大数学教室には合格を頂いた。）当日はどちらも練習通りには行かなかった。基本的なことをよく復習するのは、筆記よりむしろ口頭試問において重要かもしれない。\n出願先及び進路はちゃんと考えた方がいい。今の指導教員がいいとしても他の選択肢も調べなければいけない。自分の人生のことは真剣に考えるべきだし、そもそも「とりあえず院に行く」「落ちたら浪人すればよい」という考えは、経済的支援をしてくれている人にも不誠実だろう。受験料や旅費は高いが、1年の生活費の方が高い。下調べは面倒だし、院試対策には辛い部分もあるが、そもそも他の大学生も就活で同じように苦労しているはずだ。\n・サマースクール 大学のプログラムでソウル大学で2週間数学の講義を受けた。ソウルはすごく暑かったけど、食事はすごく美味しいし、大学は山の中にあってすごく広くて景色が良かった。（院試直前であることも忘れて！）観光も大いに楽しんだし、前回参加者とも再会することができて嬉しかった。またソウルには行きたい。\n",
+  "wordCount" : "1735",
+  "inLanguage": "en",
+  "datePublished": "2026-08-28T10:10:36+09:00",
+  "dateModified": "2026-08-28T10:10:36+09:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ysuv59.github.io/posts/4s/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Yamato Watanabe",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ysuv59.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+
+    
+      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+    
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://ysuv59.github.io/" accesskey="h" title="Yamato Watanabe (Alt + H)">Yamato Watanabe</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="https://ysuv59.github.io/posts/" title="雑記">
+                    <span>雑記</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ysuv59.github.io/maths/" title="数学メモ">
+                    <span>数学メモ</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ysuv59.github.io/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      4Sセメスター振り返り
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-08-28 10:10:36 +0900 JST'>August 28, 2026</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><p>4Sにやったことを振り返る。</p>
+<p>・講究XA 大学での必修。はじめて指導教員というものがついたので楽しかった。Brown-Ozawa &ldquo;C*-algebras and Finite-Dimentional Approximation&rdquo; を読んだ。非可換幾何学の興味とは結構離れていたけど、戸松の最後の章が面白かったことや、4S開始当時の感覚だと作用素環の綺麗な部分ばかり触っていて、本質的に難しいことと向き合ったことがないのはよくないと思ったのがあってこれを選んだ。4月までに3章までを読み、セミナーではある程度省きながら7章まで読んだ。じっさいに習得に時間がかかりそうな繊細な概念をいくつか身につけられた感覚はあるので、とてもよかった。Part1があと2章で終わるので、そこまでは読む予定。</p>
+<p>・K理論 友人と自主ゼミをした。Atiyah &ldquo;K-theory&rdquo; の邦訳を読んだ。行間だらけで大変苦しかったが、かなり勉強になった。位相的K理論の基本的なことを勉強できたし、R^nが体になるnや球面のベクトル場問題などおもしろ幾何学トピックに触れるようになったのも楽しかった。一方で特性類やコホモロジー環のことを全然知らないまま読んだのは明確に順番を間違えた感はあった。（作用素環やる分にはそんな全部やってられないというのが正直なところだが&hellip;）あとなんかまだBott周期性の証明回ってないらしい。鬱。</p>
+<p>Chern指標についてはもう少しちゃんと勉強したい。</p>
+<p>・複素幾何 ゼミ合宿の事後ゼミとしてJohn M. Lee &ldquo;Introduction to Complex Manifolds&rdquo; の9章途中まで読んだ。合宿までは正則バンドルがampleとかどうこうという話と、あとはほとんど層論・コホモロジー論だったが、7-9章はHodge理論やケーラー多様体が導入される解析パートだった。9章後半以降はこれらを全部使って複素多様体に対して大定理(e.g. Riemann-Roch, Chowの定理, 小平埋込)を勉強できる予定なので、楽しみ。</p>
+<p>・指数定理 Lawson-Michelson &ldquo;Spin Geometry&rdquo;, Berline-Getzler-Vergne &ldquo;Heat Kernels and Dirac Operators&rdquo;, John Roe &ldquo;Elliptic operators, topology and asymptotic methods&rdquo; を参照したりゼミに参加したりして手当たり次第に勉強した。しかし幾何の素養がないせいでとにかく時間がかかった。（今野微分幾何を読むハメにもなった。）結局&quot;Heat kernels and Dirac Operators&quot;の部分がなんなのかはわかったが、肝心の指数定理には辿り着いていない。これも友人の助けがなかったらとても無理だっただろう。</p>
+<p>一方でanalytic K-homologyの定義に納得できるようにはなったし、少しずつ前進はしている。</p>
+<p>・距離幾何 D.Burago-Y.Burago-Ivanov &ldquo;A Course in Metric Geometry&rdquo; を読むゼミに参加した。正直距離幾何がなんなのか知らないまま参加したが、中身はジェネトポで面白かった。でもこれから自分が使うことはあまりなさそうだと感じた。</p>
+<p>・院試 対策として4月から週1で東大の過去問を1年分解いてきて互いに発表するというのをやった。たまに予定があると解いてこれなかったが一応全年度分幾何と解析に取り組みはした。幾何は1/3くらいはいつも解けなくて厳しかった。あとは線形代数や微積は4月ごろに復習をした。京大も10年分くらい解いた。</p>
+<p>基本的なことを引き出すのが少し早くなったこと、具体例にたくさん触れられたことは良かった。ただあまりに人工的に難しい問題に当たると少し萎えた。</p>
+<p>東大と京大を受験した。（現状、京大数学教室には合格を頂いた。）当日はどちらも練習通りには行かなかった。基本的なことをよく復習するのは、筆記よりむしろ口頭試問において重要かもしれない。</p>
+<p>出願先及び進路はちゃんと考えた方がいい。今の指導教員がいいとしても他の選択肢も調べなければいけない。自分の人生のことは真剣に考えるべきだし、そもそも「とりあえず院に行く」「落ちたら浪人すればよい」という考えは、経済的支援をしてくれている人にも不誠実だろう。受験料や旅費は高いが、1年の生活費の方が高い。下調べは面倒だし、院試対策には辛い部分もあるが、そもそも他の大学生も就活で同じように苦労しているはずだ。</p>
+<p>・サマースクール 大学のプログラムでソウル大学で2週間数学の講義を受けた。ソウルはすごく暑かったけど、食事はすごく美味しいし、大学は山の中にあってすごく広くて景色が良かった。（院試直前であることも忘れて！）観光も大いに楽しんだし、前回参加者とも再会することができて嬉しかった。またソウルには行きたい。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://ysuv59.github.io/">Yamato Watanabe</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
