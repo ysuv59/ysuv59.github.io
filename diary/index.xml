@@ -6,8 +6,17 @@
     <description>Recent content in 日記 on Yamato Watanabe</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 01 Aug 2026 23:17:42 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 22:18:07 +0900</lastBuildDate>
     <atom:link href="https://ysuv59.github.io/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>09/2026</title>
+      <link>https://ysuv59.github.io/diary/092026/</link>
+      <pubDate>Tue, 01 Sep 2026 22:18:07 +0900</pubDate>
+      <guid>https://ysuv59.github.io/diary/092026/</guid>
+      <description>&lt;p&gt;9/1&lt;/p&gt;
+&lt;p&gt;4章が読み終わり、5章を少し読んだ。
+Analytic K-homologyが定義されたが、自分が知っていたFredholm moduleの同型類ではなく、よい表現の中で可換子環を少し広げたような構成でdual algebraを作理、それのK理論を考えると反変関手が得られるというものだった。実は同じ、になってほしい。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>08/2026</title>
       <link>https://ysuv59.github.io/diary/082026/</link>
