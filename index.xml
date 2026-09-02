@@ -13,9 +13,8 @@
       <link>https://ysuv59.github.io/diary/092026/</link>
       <pubDate>Tue, 01 Sep 2026 22:18:07 +0900</pubDate>
       <guid>https://ysuv59.github.io/diary/092026/</guid>
-      <description>&lt;p&gt;9/1&lt;/p&gt;
-&lt;p&gt;4章が読み終わり、5章を少し読んだ。
-Analytic K-homologyが定義されたが、自分が知っていたFredholm moduleの同型類ではなく、よい表現の中で可換子環を少し広げたような構成でdual algebraを作理、それのK理論を考えると反変関手が得られるというものだった。実は同じ、になってほしい。&lt;/p&gt;</description>
+      <description>&lt;p&gt;9/2&lt;/p&gt;
+&lt;p&gt;\( X=l^{\infty}(\mathbb{Q}) \supset Y=c_0(\mathbb{Q}) \) に対し\( X \) 上で\( Y \) の閉補空間は取れないことを示す。特に、\( X \) はHilbert空間とTVSとして同型ですらない。（添字集合が\( \mathbb{Q} \) なのは技術的事情。 ）&lt;/p&gt;</description>
     </item>
     <item>
       <title>4Sセメスター振り返り</title>
