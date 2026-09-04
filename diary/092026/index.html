@@ -7,8 +7,8 @@
 <meta name="robots" content="index, follow">
 <title>09/2026 | Yamato Watanabe</title>
 <meta name="keywords" content="">
-<meta name="description" content="9/2
-\( X=l^{\infty}(\mathbb{Q}) \supset Y=c_0(\mathbb{Q}) \) に対し\( X \) 上で\( Y \) の閉補空間は取れないことを示す。特に、\( X \) はHilbert空間とTVSとして同型ですらない。（添字集合が\( \mathbb{Q} \) なのは技術的事情。 ）">
+<meta name="description" content="9/4
+主束のいい解釈がつかめそう。associated bundleは主G束と表現のデータからなるが、この2つのそれぞれがどう捻れを生み出すか把握したい。">
 <meta name="author" content="">
 <link rel="canonical" href="https://ysuv59.github.io/diary/092026/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.a1a1b118b3e83435265dc39da18e54244bcc0e5481d1d034aadc0c899c51e15c.css" integrity="sha256-oaGxGLPoNDUmXcOdoY5UJEvMDlSB0dA0qtwMiZxR4Vw=" rel="preload stylesheet" as="style">
@@ -68,8 +68,8 @@
 </script><meta property="og:url" content="https://ysuv59.github.io/diary/092026/">
   <meta property="og:site_name" content="Yamato Watanabe">
   <meta property="og:title" content="09/2026">
-  <meta property="og:description" content="9/2
-\( X=l^{\infty}(\mathbb{Q}) \supset Y=c_0(\mathbb{Q}) \) に対し\( X \) 上で\( Y \) の閉補空間は取れないことを示す。特に、\( X \) はHilbert空間とTVSとして同型ですらない。（添字集合が\( \mathbb{Q} \) なのは技術的事情。 ）">
+  <meta property="og:description" content="9/4
+主束のいい解釈がつかめそう。associated bundleは主G束と表現のデータからなるが、この2つのそれぞれがどう捻れを生み出すか把握したい。">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
     <meta property="article:section" content="diary">
@@ -78,8 +78,8 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="09/2026">
-  <meta name="twitter:description" content="9/2
-\( X=l^{\infty}(\mathbb{Q}) \supset Y=c_0(\mathbb{Q}) \) に対し\( X \) 上で\( Y \) の閉補空間は取れないことを示す。特に、\( X \) はHilbert空間とTVSとして同型ですらない。（添字集合が\( \mathbb{Q} \) なのは技術的事情。 ）">
+  <meta name="twitter:description" content="9/4
+主束のいい解釈がつかめそう。associated bundleは主G束と表現のデータからなるが、この2つのそれぞれがどう捻れを生み出すか把握したい。">
 
 
 <script type="application/ld+json">
@@ -108,12 +108,12 @@
   "@type": "BlogPosting",
   "headline": "09/2026",
   "name": "09\/2026",
-  "description": "9/2\n\\( X=l^{\\infty}(\\mathbb{Q}) \\supset Y=c_0(\\mathbb{Q}) \\) に対し\\( X \\) 上で\\( Y \\) の閉補空間は取れないことを示す。特に、\\( X \\) はHilbert空間とTVSとして同型ですらない。（添字集合が\\( \\mathbb{Q} \\) なのは技術的事情。 ）\n",
+  "description": "9/4\n主束のいい解釈がつかめそう。associated bundleは主G束と表現のデータからなるが、この2つのそれぞれがどう捻れを生み出すか把握したい。\n",
   "keywords": [
     
   ],
-  "articleBody": "9/2\n\\( X=l^{\\infty}(\\mathbb{Q}) \\supset Y=c_0(\\mathbb{Q}) \\) に対し\\( X \\) 上で\\( Y \\) の閉補空間は取れないことを示す。特に、\\( X \\) はHilbert空間とTVSとして同型ですらない。（添字集合が\\( \\mathbb{Q} \\) なのは技術的事情。 ）\n（証明）\\( \\pi: X \\rightarrow X/Y \\) を商写像とする。\n各 \\( t \\in \\mathbb{R} \\) に対し、互いに異なる有理数からなり\\( t \\) に収束する有理数列\\( (t_n) \\)を取る。\n\\( Q_t := \\{ t_n ; n \\in \\mathbb{N} \\} \\subset \\mathbb{Q} \\) と定め、\\( \\chi_t := \\pi (\\chi_{Q_t} ) \\in X/Y \\) とする。\\( t \\neq t' \\) に対し\\( Q_t \\cap Q_{t'} \\) は有限集合だから\\( \\chi_t \\neq \\chi_{t'} \\) である。したがって、 \\( V:= \\{ \\chi_t ; t \\in \\mathbb{R} \\} \\) は非可算集合である。また、どれも0でない。\nいま\\( f \\in (X/Y)^* \\) とし、\\( V_f := \\{ v \\in V; f(v) \\neq 0 \\} \\) とおく。\\( V_f \\) が高々可算集合であることを示す。(1)\n\\( V_f(n) := \\{ v \\in V ; |f(v)| \\ge \\frac{1}{n} \\} \\) とおく。\\( v_1, \\cdots, v_m \\in V_f(n) \\) が互いに異なる元であるとすると、\\( \\alpha_k= \\frac{|f(v_k)|}{f(v_k)}, x := \\sum_{k=1}^m \\alpha_k v_k \\) に対し（再び\\( t \\neq t' \\) に対し\\( Q_t \\cap Q_{t'} \\) は有限集合なことから）\\( \\| x \\| \\le 1 \\) となる。よって \\( \\| f \\| \\ge |f(x)| = \\sum_1^m |f(v_k)| \\ge \\frac{m}{n} \\) なので、\\( V_f(n) \\) は有限集合である。\\( V_f=\\cup_{n \\in \\mathbb{N}} V_f(n) \\) なので\\( V_f \\) は高々可算である。((1)終わり)\nしたがって、\\( F \\subset (X/Y)^* \\) を可算部分集合とすると、ある\\( v \\in V \\) が存在して \\( f(v)=0 (f \\in F) \\) となる。(2)\n一方で、\\( q \\in \\mathbb{Q} \\) に対し \\( \\delta_q \\in X^* \\) をその点の評価写像とすると \\( G := \\{ \\delta_q ; q \\in \\mathbb{Q} \\} \\subset \\\\X^* \\) はもちろん可算集合であり、\\( w \\in X \\) に対し \\( f(w)=0 (\\forall f \\in G) \\Rightarrow w=0 \\)　を満たす。\n今、\\( Y \\) の閉補空間\\( Z \\) が存在したと仮定すると、\\( \\pi |_Z :Z \\rightarrow X/Y \\) は開写像定理によりBanach空間としての同型を与える。（特に、双対空間の情報を保つ。）\\( G' := \\{ \\delta_q |_Z \\} \\subset Z^* \\) は\\( G \\) と同じ条件を満たすが、これは\\( X/Y \\) に対する事実(2)に矛盾する。以上により示された。（証明終わり）\nはじめに述べたように、閉補空間が取れる、などは位相的な性質なので、Hilbert空間とTVSとして同型であれば成り立つ。Lindenstrauss-Tzafririの定理によればその逆も成り立つようである：つまり、Banach空間が任意の閉部分空間に対して閉補空間を持てば、それはHilbert空間とTVSとして同型である。\n証明はS.S.Kutateladze “Fundamentals of Functional Analysis\"の例7.4.11から引用した。関数解析楽しい！\n9/1\n4章が読み終わり、5章を少し読んだ。 Analytic K-homologyが定義されたが、自分が知っていたFredholm moduleの同型類ではなく、よい表現の中で可換子環を少し広げたような構成でdual algebraを作り、それのK理論を考えると反変関手が得られるというものだった。実は同じ、になってほしい。\nホモロジーと名前がついているのに反変なのは間違いではない。多分位相空間の時の名前をそのまま受け継いだせいだと思う。（位相空間をC* 環で読み替えるときに連続関数環を取るので反変的になる。）\n「ファイバー束とホモトピー」を少し読んだ。著者のホームページを知っていると信頼感がすごい。\n",
-  "wordCount" : "1243",
+  "articleBody": "9/4\n主束のいい解釈がつかめそう。associated bundleは主G束と表現のデータからなるが、この2つのそれぞれがどう捻れを生み出すか把握したい。\n色々重なって昼夜逆転しそうでまずい。\n9/2\n\\( X=l^{\\infty}(\\mathbb{Q}) \\supset Y=c_0(\\mathbb{Q}) \\) に対し\\( X \\) 上で\\( Y \\) の閉補空間は取れないことを示す。特に、\\( X \\) はHilbert空間とTVSとして同型ですらない。（添字集合が\\( \\mathbb{Q} \\) なのは技術的事情。 ）\n（証明）\\( \\pi: X \\rightarrow X/Y \\) を商写像とする。\n各 \\( t \\in \\mathbb{R} \\) に対し、互いに異なる有理数からなり\\( t \\) に収束する有理数列\\( (t_n) \\)を取る。\n\\( Q_t := \\{ t_n ; n \\in \\mathbb{N} \\} \\subset \\mathbb{Q} \\) と定め、\\( \\chi_t := \\pi (\\chi_{Q_t} ) \\in X/Y \\) とする。\\( t \\neq t' \\) に対し\\( Q_t \\cap Q_{t'} \\) は有限集合だから\\( \\chi_t \\neq \\chi_{t'} \\) である。したがって、 \\( V:= \\{ \\chi_t ; t \\in \\mathbb{R} \\} \\) は非可算集合である。また、どれも0でない。\nいま\\( f \\in (X/Y)^* \\) とし、\\( V_f := \\{ v \\in V; f(v) \\neq 0 \\} \\) とおく。\\( V_f \\) が高々可算集合であることを示す。(1)\n\\( V_f(n) := \\{ v \\in V ; |f(v)| \\ge \\frac{1}{n} \\} \\) とおく。\\( v_1, \\cdots, v_m \\in V_f(n) \\) が互いに異なる元であるとすると、\\( \\alpha_k= \\frac{|f(v_k)|}{f(v_k)}, x := \\sum_{k=1}^m \\alpha_k v_k \\) に対し（再び\\( t \\neq t' \\) に対し\\( Q_t \\cap Q_{t'} \\) は有限集合なことから）\\( \\| x \\| \\le 1 \\) となる。よって \\( \\| f \\| \\ge |f(x)| = \\sum_1^m |f(v_k)| \\ge \\frac{m}{n} \\) なので、\\( V_f(n) \\) は有限集合である。\\( V_f=\\cup_{n \\in \\mathbb{N}} V_f(n) \\) なので\\( V_f \\) は高々可算である。((1)終わり)\nしたがって、\\( F \\subset (X/Y)^* \\) を可算部分集合とすると、ある\\( v \\in V \\) が存在して \\( f(v)=0 (f \\in F) \\) となる。(2)\n一方で、\\( q \\in \\mathbb{Q} \\) に対し \\( \\delta_q \\in X^* \\) をその点の評価写像とすると \\( G := \\{ \\delta_q ; q \\in \\mathbb{Q} \\} \\subset \\\\X^* \\) はもちろん可算集合であり、\\( w \\in X \\) に対し \\( f(w)=0 (\\forall f \\in G) \\Rightarrow w=0 \\)　を満たす。\n今、\\( Y \\) の閉補空間\\( Z \\) が存在したと仮定すると、\\( \\pi |_Z :Z \\rightarrow X/Y \\) は開写像定理によりBanach空間としての同型を与える。（特に、双対空間の情報を保つ。）\\( G' := \\{ \\delta_q |_Z \\} \\subset Z^* \\) は\\( G \\) と同じ条件を満たすが、これは\\( X/Y \\) に対する事実(2)に矛盾する。以上により示された。（証明終わり）\nはじめに述べたように、閉補空間が取れる、などは位相的な性質なので、Hilbert空間とTVSとして同型であれば成り立つ。Lindenstrauss-Tzafririの定理によればその逆も成り立つようである：つまり、Banach空間が任意の閉部分空間に対して閉補空間を持てば、それはHilbert空間とTVSとして同型である。\n証明はS.S.Kutateladze “Fundamentals of Functional Analysis\"の例7.4.11から引用した。関数解析楽しい！\n9/1\n4章が読み終わり、5章を少し読んだ。 Analytic K-homologyが定義されたが、自分が知っていたFredholm moduleの同型類ではなく、よい表現の中で可換子環を少し広げたような構成でdual algebraを作り、それのK理論を考えると反変関手が得られるというものだった。実は同じ、になってほしい。\nホモロジーと名前がついているのに反変なのは間違いではない。多分位相空間の時の名前をそのまま受け継いだせいだと思う。（位相空間をC* 環で読み替えるときに連続関数環を取るので反変的になる。）\n「ファイバー束とホモトピー」を少し読んだ。著者のホームページを知っていると信頼感がすごい。\n",
+  "wordCount" : "1335",
   "inLanguage": "en",
   "datePublished": "2026-09-01T22:18:07+09:00",
   "dateModified": "2026-09-01T22:18:07+09:00",
@@ -209,7 +209,10 @@
 
 </div>
   </header> 
-  <div class="post-content md-content"><p>9/2</p>
+  <div class="post-content md-content"><p>9/4</p>
+<p>主束のいい解釈がつかめそう。associated bundleは主G束と表現のデータからなるが、この2つのそれぞれがどう捻れを生み出すか把握したい。</p>
+<p>色々重なって昼夜逆転しそうでまずい。</p>
+<p>9/2</p>
 <p>\( X=l^{\infty}(\mathbb{Q}) \supset Y=c_0(\mathbb{Q}) \) に対し\( X \) 上で\( Y \) の閉補空間は取れないことを示す。特に、\( X \) はHilbert空間とTVSとして同型ですらない。（添字集合が\( \mathbb{Q} \) なのは技術的事情。 ）</p>
 <p>（証明）\( \pi: X \rightarrow X/Y \) を商写像とする。</p>
 <p>各 \( t \in \mathbb{R} \) に対し、互いに異なる有理数からなり\( t \) に収束する有理数列\( (t_n) \)を取る。</p>
