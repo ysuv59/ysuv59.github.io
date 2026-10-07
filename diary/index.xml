@@ -13,8 +13,9 @@
       <link>https://ysuv59.github.io/diary/102026/</link>
       <pubDate>Thu, 01 Oct 2026 12:30:13 +0900</pubDate>
       <guid>https://ysuv59.github.io/diary/102026/</guid>
-      <description>&lt;p&gt;10/4&lt;/p&gt;
-&lt;p&gt;Pimsner-Voiculescuの議論を追ってみた。非可換トーラス\( A_{\theta} \) のK群のトレースの像( \( \mathbb{R} \) の部分集合 )は同型判定に大切な情報で、この像が\( \mathbb{Z} + \mathbb{Z} \theta \) を含むことは元を用意することでわかるが、ちょうどこれであることを示すのは難しい。そこでトレースの像がこれであるAF環を用意し、ここに\( A_{\theta} \) を埋め込むことで像が\( \mathbb{Z} + \mathbb{Z} \theta \) からはみ出さないことを示すという議論がある。（ここでAF環を持ち出すのは、AF環に対してはK群が完全に理解されていて手作りが利くからである）あと、埋め込み方は無理数\( \theta \) の連分数展開を使ったり、摂動の技術が凝っていてよくやるなあと思う。&lt;/p&gt;</description>
+      <description>&lt;p&gt;10/7&lt;/p&gt;
+&lt;p&gt;コホモロジーの環構造を決定するのはとても難しいように思う。&lt;/p&gt;
+&lt;p&gt;Mckean-Singerと熱核の漸近展開の公式から2次元のGauss-Bonnetを導く方法を知った。&lt;/p&gt;</description>
     </item>
     <item>
       <title>09/2026</title>
