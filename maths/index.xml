@@ -39,12 +39,5 @@
       <description>&lt;p&gt;Gelfand spectrumの一般化であるspectrumとprimitive ideal spaceについて少しまとめた。続編もある予定。&lt;/p&gt;
 &lt;p&gt;今回はtypstで記事を書いて、ここにそのままはっつけた。圧倒的に楽だった。&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>C*環</title>
-      <link>https://ysuv59.github.io/maths/calg/</link>
-      <pubDate>Mon, 04 May 2026 23:02:04 +0900</pubDate>
-      <guid>https://ysuv59.github.io/maths/calg/</guid>
-      <description>&lt;p&gt;私は作用素環論に主に興味があって、このページにもそれに関するものが多くなると予想されるので、定義とその気持ちを書いておく。（だいぶ私の思想が乗っているが、教科書に書いてあることは教科書を読めばいいのであえてそうする）&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
